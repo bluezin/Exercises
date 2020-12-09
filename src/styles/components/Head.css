@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Luckiest+Guy&family=Piedra&display=swap');
+
+.Head {
+  cursor: pointer;
+  /* display: flex; */
+  /* margin-top: -10px; */
+  /* margin-left: -8px; */
+  /* margin-right: -9px; */
+  /* margin-bottom: 30px; */
+  /* background-color: #acb6e5; */
+}
+
+.Link {
+  text-decoration: none;
+  display: flex;
+  color: black;
+}
+
+.img-head {
+  width: 110px;
+}
+
+.h1-head {
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+
+  position: relative;
+  right: 20px;
+  top: 15px;
+}
+
+@media screen and (max-width: 289px) {
+  /* .h1-head {
+    font-size: 18px;
+    margin-left: 12px;
+    margin-top: 25px;
+  }
+  .img-head {
+    width: 40%;
+  }
+  .Head {
+    text-align: center;
+  } */
+  .h1-head{
+    font-size: 14px;
+    top: 30px;
+  }
+  .img-head{
+    width: 90px;
+  }
+}

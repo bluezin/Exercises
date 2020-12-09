@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Secular+One&family=Shadows+Into+Light&display=swap');
+
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.informacion-list {
+  margin: 32px;
+  box-sizing: border-box;
+}
+
+.img-list {
+  width: 250px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.title-list {
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+  font-size: 18px;
+}
+
+.button-edit {
+  /* text-align: center; */
+}
+
+.button-list {
+  background-color: white;
+
+  padding: 7px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  color: black;
+}
+.delete {
+  background-color: rgb(241, 138, 138);
+  margin: 10px;
+}
+
+.MdDelete {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: rgb(66, 175, 238);
+  color: white;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.FaUser {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(115, 204, 255);
+
+  border-radius: 50%;
+  padding: 4px;
+}
+
+@media screen and (min-width: 543px) {
+  .div-list {
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 543px) {
+  .div-list {
+    margin: 20px;
+    border-radius: 10px;
+    width: 70%;
+  }
+
+  .img-list {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .div-img-list {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  .title-list {
+    font-size: 12px;
+  }
+}

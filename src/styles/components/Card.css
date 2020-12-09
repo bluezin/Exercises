@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+.Card {
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 400px;
+
+}
+
+.div-flex-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.div-new-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.new-card {
+  font-size: 20px;
+}
+
+.card-image {
+  padding: 22px;
+  width: 180px;
+  box-sizing: border-box;
+}
+
+.title-card {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 45px;
+  font-family: 'Courgette', cursive;
+}
+
+@media screen and (max-width: 943px) {
+  .Card {
+    margin-top: 50px;
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-width: 427px) {
+  .Card {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .Card {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .card-image {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 237px) {
+  .Card {
+    font-size: 12px;
+  }
+}

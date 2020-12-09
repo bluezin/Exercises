@@ -1,0 +1,22 @@
+{
+  "Exercise": [
+    {
+      "title": "They are have do exercise",
+      "description": "Have exercise",
+      "image": "https://kinsta.com/es/wp-content/uploads/sites/8/2018/02/leyenda-de-wordpress-1-1024x512.png",
+      "day": "3",
+      "rightcolor": "#bfe9ff",
+      "leftcolor": "white",
+      "id": 2
+    },
+    {
+      "title": "They are have do exercises",
+      "description": "Have exercise",
+      "image": "https://kinsta.com/es/wp-content/uploads/sites/8/2018/02/leyenda-de-wordpress-1-1024x512.png",
+      "day": "3",
+      "rightcolor": "#bfe9ff",
+      "leftcolor": "#bfe9ff",
+      "id": 3
+    }
+  ]
+}

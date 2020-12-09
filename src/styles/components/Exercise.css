@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+input {
+  width: 380px;
+  padding: 14px;
+  font-size: 14px;
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button {
+  background-color: rgb(78, 193, 235);
+
+  padding: 11px;
+  width: 180px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 16px;
+  font-family: 'Handlee', cursive;
+
+}
+
+.div-button {
+  text-align: center;
+}
+
+.h1-add {
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+.div-form {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+@media screen and (min-width: 428px) {
+  .Exercise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-top: -70px; */
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .Exercise {
+    margin-top: 40px;
+  }
+  input {
+    width: 70%;
+  }
+  .div-form {
+    width: 70%;
+    margin: auto;
+  }
+  .h1-add {
+    font-size: 25px;
+  }
+
+  .button{
+    width: 80%;
+  }
+}

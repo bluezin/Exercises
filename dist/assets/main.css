@@ -1,0 +1,412 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Courgette&family=Secular+One&family=Shadows+Into+Light&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Handlee&family=Luckiest+Guy&family=Piedra&display=swap);
+body {
+  overflow-x: hidden;
+  background: linear-gradient(to right, #74ebd5, #a8c0ff);
+}
+
+.Card {
+  box-sizing: border-box;
+  border-radius: 12px;
+  width: 400px;
+}
+.div-flex-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-new-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+.new-card {
+  font-size: 20px;
+}
+.card-image {
+  padding: 22px;
+  width: 180px;
+  box-sizing: border-box;
+}
+.title-card {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 45px;
+  font-family: 'Courgette', cursive;
+}
+@media screen and (max-width: 943px) {
+  .Card {
+    margin-top: 50px;
+    margin-bottom: 23px;
+  }
+}
+@media screen and (min-width: 427px) {
+  .Card {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 427px) {
+  .Card {
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .card-image {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 237px) {
+  .Card {
+    font-size: 12px;
+  }
+}
+
+.Modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(88,83,83,0.6);
+  color: #fff;
+}
+.div-Modal {
+  background-color: #000;
+  padding: 25px;
+  width: 350px;
+}
+.close {
+  display: flex;
+  float: right;
+  cursor: pointer;
+}
+@media screen and (max-width: 454px) {
+  .div-Modal {
+    margin: 10px;
+  }
+}
+
+input {
+  width: 380px;
+  padding: 14px;
+  font-size: 14px;
+  margin: 3px;
+  border-radius: 5px;
+  border: none;
+}
+.button {
+  background-color: #4ec1eb;
+  padding: 11px;
+  width: 180px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 16px;
+  font-family: 'Handlee', cursive;
+}
+.div-button {
+  text-align: center;
+}
+.h1-add {
+  text-align: center;
+  font-family: 'Handlee', cursive;
+}
+.div-form {
+  margin-right: 90px;
+  margin-left: 90px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+@media screen and (min-width: 428px) {
+  .Exercise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+/* margin-top: -70px; */
+  }
+}
+@media screen and (max-width: 428px) {
+  .Exercise {
+    margin-top: 40px;
+  }
+  input {
+    width: 70%;
+  }
+  .div-form {
+    width: 70%;
+    margin: auto;
+  }
+  .h1-add {
+    font-size: 25px;
+  }
+  .button {
+    width: 80%;
+  }
+}
+
+.List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.informacion-list {
+  margin: 32px;
+  box-sizing: border-box;
+}
+.img-list {
+  width: 250px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 5px;
+}
+.title-list {
+  font-weight: bold;
+  font-family: 'Secular One', sans-serif;
+  font-size: 18px;
+}
+.button-list {
+  background-color: #fff;
+  padding: 7px;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  color: #000;
+}
+.delete {
+  background-color: #f18a8a;
+  margin: 10px;
+}
+.MdDelete {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+  background-color: #42afee;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px;
+}
+.FaUser {
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #fff;
+  background-color: #73ccff;
+  border-radius: 50%;
+  padding: 4px;
+}
+@media screen and (min-width: 543px) {
+  .div-list {
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 543px) {
+  .div-list {
+    margin: 20px;
+    border-radius: 10px;
+    width: 70%;
+  }
+  .img-list {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .div-img-list {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 250px) {
+  .title-list {
+    font-size: 12px;
+  }
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #f8eded;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fafafa transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@-moz-keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Head {
+  cursor: pointer;
+/* display: flex; */
+/* margin-top: -10px; */
+/* margin-left: -8px; */
+/* margin-right: -9px; */
+/* margin-bottom: 30px; */
+/* background-color: #acb6e5; */
+}
+.Link {
+  text-decoration: none;
+  display: flex;
+  color: #000;
+}
+.img-head {
+  width: 110px;
+}
+.h1-head {
+  font-weight: bold;
+  font-family: 'Handlee', cursive;
+  position: relative;
+  right: 20px;
+  top: 15px;
+}
+@media screen and (max-width: 289px) {
+  .h1-head {
+    font-size: 14px;
+    top: 30px;
+  }
+  .img-head {
+    width: 90px;
+  }
+}
+
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.IMG {
+  width: 500px;
+}
+.h1-home {
+  font-size: 50px;
+  font-family: 'Handlee', cursive;
+  letter-spacing: 2px;
+}
+.div-home {
+  margin-left: 12px;
+}
+.button-home {
+  background-color: #4ec1eb;
+  padding: 15px;
+  width: 280px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 18px;
+  font-family: 'Handlee', cursive;
+}
+@media screen and (max-width: 900px) {
+  .Home {
+    flex-wrap: wrap;
+  }
+  .IMG {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .IMG {
+    display: none;
+  }
+  .div-home {
+    text-align: center;
+  }
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .h1-home {
+    font-size: 40px;
+  }
+  .button-home {
+    width: 80%;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .h1-home {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .NotFound {
+    width: 150%;
+  }
+}
+

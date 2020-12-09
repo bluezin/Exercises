@@ -1,0 +1,73 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IMG {
+  width: 500px;
+}
+
+.h1-home {
+  font-size: 50px;
+  font-family: 'Handlee', cursive;
+
+  letter-spacing: 2px;
+}
+
+.div-home {
+  margin-left: 12px;
+}
+
+.button-home {
+  background-color: rgb(78, 193, 235);
+
+  padding: 15px;
+  width: 280px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 18px;
+  font-family: 'Handlee', cursive;
+}
+
+@media screen and (max-width: 900px) {
+  .Home {
+    flex-wrap: wrap;
+  }
+  .IMG {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .IMG {
+    display: none;
+  }
+  .div-home {
+    text-align: center;
+  }
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  .h1-home {
+    font-size: 40px;
+  }
+  .button-home {
+    width: 80%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .h1-home {
+    font-size: 20px;
+  }
+}
