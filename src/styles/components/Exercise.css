@@ -55,12 +55,12 @@ input {
 @media screen and (max-width: 428px) {
   .Exercise {
     margin-top: 40px;
+
   }
   input {
-    width: 100%;
+    width: 90%;
   }
   .div-form {
-    width: 70%;
     margin: auto;
   }
   .h1-add {
